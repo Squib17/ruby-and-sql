@@ -10,7 +10,7 @@ Company.destroy_all
 
 # - Insert, read, update, and delete rows in companies table
 #   (i.e. full CRUD of company data).
-
+puts "There are #{Company.all.count} companies"
 # 1a. check out the schema file
 # 1b. check out the model file
 
